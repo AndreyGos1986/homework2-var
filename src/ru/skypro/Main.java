@@ -76,8 +76,11 @@ public class Main {
 
         var daysQualityForReduceWeight250 = totalReduceToKg/reduceWeight250;
         var daysQualityForReduceWeight500 = totalReduceToKg/reduceWeight500;
+        var averageQuantityOfDays = (daysQualityForReduceWeight250 +daysQualityForReduceWeight500)/2;
         System.out.println("Количество потраченных дней при сбросе веса по 250 грамм равно " + daysQualityForReduceWeight250 + " дней");
         System.out.println("Количество потраченных дней при сбросе веса по 500 грамм равно " + daysQualityForReduceWeight500  + " дней");
+        System.out.println("Среднее количество потраченных дней при сбросе веса равно " + averageQuantityOfDays  + " дней");
+
         System.out.println();
 
         System.out.println("ЗАДАЧА №5");
