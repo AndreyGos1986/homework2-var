@@ -1,5 +1,7 @@
 package ru.skypro;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -112,7 +114,51 @@ public class Main {
         System.out.println(" Годовая зарплата Кристины с учетом повышения на 10% составила " + salaryMashaPerYearAfterIncreace + " рублей и теперь в год она будет получать на " + (salaryKristinaPerYearAfterIncreace-salaryKristinaPerYear) + " рублей больше в сравнении зарплатой за прошлый год.");
 
 
+        System.out.println();
+        System.out.println("ЗАДАЧИ ПОВЫШЕННОЙ СЛОЖНОСТИ");
+        System.out.println();
+        System.out.println(" ЗАДАЧА №6 ");
+        System.out.println();
+
+
+        short a1 = 12; // в обычной домашке уже есть указанные переменные, поэтому проставил индексы
+        short b1 = 27;
+        short c1 = 44;
+        short d1 = 15;
+        short e1 = 9;
+        var result = a1 * (b1 + (c1 - d1 * e1));
+        System.out.println(result);
+        result = -result;
+        System.out.println(result);
+        result = -result;
+        System.out.println(result);
+
+
+        System.out.println();
+        System.out.println(" ЗАДАЧА №7 ");
+        System.out.println();
+
+
+        short a2 = 7;
+        short b2 = 5;
+        System.out.println("a2 = " + (b2+b2+b2)/3);
+        System.out.println("b2 = " + (a2+a2+a2)/3);
+
+        System.out.println();
+        System.out.println(" ЗАДАЧА №8 ");
+        System.out.println();
+
+        int a3 = 173; // дана целочисленная переменная
+        System.out.println("Инициализированная переменная а2  " + a3);
+
+        int dg = (int)Math.log10(a3)+1; // находим общее количество цифр в числе
+        System.out.println ("Количество цифр в переменной a3 равно " + dg);
+
+        int b3 = (int) (a3/Math.pow(10,dg/2))%10; // находим среднюю цифру в числе
+        System.out.println ("после присвоения " + b3);
+
 
     }
+
 }
 
