@@ -139,11 +139,13 @@ public class Main {
         System.out.println();
 
 
-        short a2 = 7;
-        short b2 = 5;
+        int a2 = 7;
+        int b2 = 5;
+        a2=(a2*b2)/a2;
+        if (a2==b2) b2=7;
 
-        System.out.println("a2 = " + (a2*b2)/a2);
-        System.out.println("b2 = " + (a2*b2)/b2);
+        System.out.println("a2 = " + a2);
+        System.out.println("b2 = " + b2);
 
         System.out.println();
         System.out.println(" ЗАДАЧА №8 ");
