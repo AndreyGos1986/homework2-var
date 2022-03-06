@@ -149,14 +149,20 @@ public class Main {
         System.out.println(" ЗАДАЧА №8 ");
         System.out.println();
 
-        int a3 = 173; // дана целочисленная переменная
-        System.out.println("Инициализированная переменная а2  " + a3);
+//        int a3 = 173; // дана целочисленная переменная
+//        System.out.println("Инициализированная переменная а2  " + a3);
+//
+//        int dg = (int)Math.log10(a3)+1; // находим общее количество цифр в числе
+//        System.out.println ("Количество цифр в переменной a3 равно " + dg);
+//
+//        int b3 = (int) (a3/Math.pow(10,dg/2))%10; // находим среднюю цифру в числе
+//        System.out.println ("после присвоения " + b3);
 
-        int dg = (int)Math.log10(a3)+1; // находим общее количество цифр в числе
-        System.out.println ("Количество цифр в переменной a3 равно " + dg);
+            int a3 = 183;
+            var b3 = (a3/10)%10;
+            System.out.println (b3);
 
-        int b3 = (int) (a3/Math.pow(10,dg/2))%10; // находим среднюю цифру в числе
-        System.out.println ("после присвоения " + b3);
+
 
 
     }
