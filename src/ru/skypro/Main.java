@@ -1,6 +1,6 @@
 package ru.skypro;
 
-import java.util.ArrayList;
+
 
 public class Main {
 
@@ -143,9 +143,9 @@ public class Main {
         int b2 = 5;
 
         a2=a2*b2;
-
         b2=a2/b2;
         a2=a2/b2;
+
         System.out.println("b2 = " + b2);
         System.out.println("a2 = " + a2);
 
