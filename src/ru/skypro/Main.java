@@ -145,8 +145,8 @@ public class Main {
         a2=a2*b2;
 
         b2=a2/b2;
-        System.out.println("b2 = " + b2);
         a2=a2/b2;
+        System.out.println("b2 = " + b2);
         System.out.println("a2 = " + a2);
 
 
